@@ -23,7 +23,7 @@ import {
         ColorPicker
     ],
     providers,
-    imports: [BrowserModule, FormsModule],
+    imports: [BrowserModule, FormsModule, HttpModule],
     bootstrap: [App]
 })
 
