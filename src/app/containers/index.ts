@@ -1,3 +1,3 @@
-export { Main } from './main';
-export { Notes } from './notes';
-export { About } from './about';
+export { Main } from './main/main';
+export { Notes } from './notes/notes';
+export { About } from './about/about';
