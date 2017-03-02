@@ -1,7 +1,7 @@
 var path = require('path');
 var webpack = require('webpack');
 
-var config = {
+module.exports = {
     cache: true,
     devtool: 'source-map',
     entry: {
@@ -24,7 +24,7 @@ var config = {
             { test: /\.css$/, loader: 'to-string-loader!css-loader' },
         ]
     },
-    
+
     plugins: [
         new webpack.optimize.CommonsChunkPlugin({
             name: ['polyfills', 'vendor', 'main'].reverse(),
@@ -54,4 +54,3 @@ var config = {
         setTimeout: true
     }
 };
-module.exports = config;

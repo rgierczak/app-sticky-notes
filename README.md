@@ -1,11 +1,22 @@
 # app-sticky-notes
 
-## instalation
+> This is the sticky notes application, basic on Google Keep.
 
-- npm install
+## Installation
 
-## running
+```
+$ npm install
+```
 
-- npm run api
-- npm run start
-- open localhost:3000
+## Usage
+
+```
+npm run api
+npm run start
+```
+
+Run the project in your browser
+
+```
+localhost:3000
+```
